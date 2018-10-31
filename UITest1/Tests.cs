@@ -61,7 +61,7 @@ namespace UITest1
         public void CodeButtonTest_Rotate()
         {
             //click on the button throght the AutomationId
-            app.Tap(c => c.Marked("Code"));
+            app.Tap(c => c.Marked("CodeId"));
             app.Screenshot("Prueba_codeButton");
             //click on the button throght the button text
             app.Tap("Click to Rotate Text!");
