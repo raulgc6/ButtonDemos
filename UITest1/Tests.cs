@@ -86,7 +86,7 @@ namespace UITest1
         [Category("2 Code Button")]
         public void CodeButtonTest_AssertLabelText()
         {
-            app.Tap(c => c.Marked("Code"));
+            app.Tap(Code);
             app.Screenshot("Prueba_codeButton");
             //Search the label
             AppResult[] CodePageTextResult = app.Query(c => c.Marked("CodePageText"));
