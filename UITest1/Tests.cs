@@ -71,7 +71,7 @@ namespace UITest1
         [Category("2 Code Button")]
         public void CodeButtonTest_AsserButtontText()
         {
-            app.Tap(c => c.Marked("Code"));
+            app.Tap(c => c.Marked("CodeId"));
             app.Screenshot("Prueba_codeButton");
             //click on the button throght the AutomationId
             app.Tap(c => c.Marked("Rotate_Text2"));
