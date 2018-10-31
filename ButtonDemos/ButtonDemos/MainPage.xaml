@@ -11,31 +11,38 @@
 
             <Button Text="Basic Button Click"
                     Command="{Binding NavigateCommand}"
-                    CommandParameter="{x:Type local:BasicButtonClickPage}" />
+                    CommandParameter="{x:Type local:BasicButtonClickPage}" 
+                    AutomationId="BasicId"/>
 
             <Button Text="Code Button Click"
                     Command="{Binding NavigateCommand}"
-                    CommandParameter="{x:Type local:CodeButtonClickPage}" />
+                    CommandParameter="{x:Type local:CodeButtonClickPage}"  
+                    AutomationId="CodeId"/>
 
             <Button Text="Basic Button Command"
                     Command="{Binding NavigateCommand}"
-                    CommandParameter="{x:Type local:BasicButtonCommandPage}" />
+                    CommandParameter="{x:Type local:BasicButtonCommandPage}"  
+                    AutomationId="BasicCommandId"/>
 
             <Button Text="Press and Release Button"
                     Command="{Binding NavigateCommand}"
-                    CommandParameter="{x:Type local:PressAndReleaseButtonPage}" />
+                    CommandParameter="{x:Type local:PressAndReleaseButtonPage}"  
+                    AutomationId="PressId"/>
 
             <Button Text="Button Appearance"
                     Command="{Binding NavigateCommand}"
-                    CommandParameter="{x:Type local:ButtonAppearancePage}" />
+                    CommandParameter="{x:Type local:ButtonAppearancePage}"  
+                    AutomationId="AppearanceId"/>
 
             <Button Text="Toggle Button Demo"
                     Command="{Binding NavigateCommand}"
-                    CommandParameter="{x:Type local:ToggleButtonDemoPage}" />
+                    CommandParameter="{x:Type local:ToggleButtonDemoPage}"  
+                    AutomationId="ToggleId"/>
 
             <Button Text="Image Button Demo"
                     Command="{Binding NavigateCommand}"
-                    CommandParameter="{x:Type local:ImageButtonDemoPage}" />
+                    CommandParameter="{x:Type local:ImageButtonDemoPage}"  
+                    AutomationId="ImageId"/>
 
         </FlexLayout>
     </ScrollView>

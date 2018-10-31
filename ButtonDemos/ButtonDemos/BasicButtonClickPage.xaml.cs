@@ -12,7 +12,7 @@ namespace ButtonDemos
 
         async void OnButtonClicked(object sender, EventArgs args)
         {
-            await label.RelRotateTo(360, 1000);
+            await label.RelRotateTo(300, 1000);
         }
     }
 }

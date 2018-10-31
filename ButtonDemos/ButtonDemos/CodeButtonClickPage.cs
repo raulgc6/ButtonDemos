@@ -14,14 +14,17 @@ namespace ButtonDemos
                 Text = "Click the Button below",
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                 VerticalOptions = LayoutOptions.CenterAndExpand,
-                HorizontalOptions = LayoutOptions.Center
+                HorizontalOptions = LayoutOptions.Center,
+                AutomationId="CodePageText"
+                
             };
 
             Button button = new Button
             {
                 Text = "Click to Rotate Text!",
                 VerticalOptions = LayoutOptions.CenterAndExpand,
-                HorizontalOptions = LayoutOptions.Center
+                HorizontalOptions = LayoutOptions.Center,
+                AutomationId = "Rotate_Text2"
             };
             button.Clicked += async (sender, args) => await label.RelRotateTo(360, 1000);
 

@@ -13,16 +13,19 @@
         <Label Text="{Binding Number, StringFormat='Value is now {0}'}"
                FontSize="Large"
                VerticalOptions="CenterAndExpand" 
-               HorizontalOptions="Center" />
+               HorizontalOptions="Center"
+               AutomationId="LabelResult"/>
 
         <Button Text="Multiply by 2"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                Command="{Binding MultiplyBy2Command}" />
+                Command="{Binding MultiplyBy2Command}"
+                AutomationId="Por2"/>
 
         <Button Text="Divide by 2"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                Command="{Binding DivideBy2Command}" />
+                Command="{Binding DivideBy2Command}" 
+                AutomationId="Entre2"/>
     </StackLayout>
 </ContentPage>

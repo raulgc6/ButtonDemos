@@ -22,12 +22,14 @@
             <Slider x:Name="fontSizeSlider"
                     Maximum="48"
                     Minimum="1"
-                    Value="{Binding FontSize}" />
+                    Value="{Binding FontSize}"
+                    AutomationId="sizeSlider"/>
 
             <Label Text="{Binding Source={x:Reference fontSizeSlider},
                                   Path=Value,
                                   StringFormat='FontSize = {0:F0}'}"
-                   HorizontalTextAlignment="Center" />
+                   HorizontalTextAlignment="Center" 
+                   AutomationId="buttonDynamic"/>
 
             <Slider x:Name="borderWidthSlider"
                     Minimum="-1"

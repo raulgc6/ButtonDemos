@@ -14,7 +14,8 @@
         <Button Text="Click to Rotate Text!"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                Clicked="OnButtonClicked" />
+                Clicked="OnButtonClicked" 
+                AutomationId="Rotate_text"/>
         
     </StackLayout>
-</ContentPage>
+</ContentPage>              
